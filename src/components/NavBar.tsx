@@ -23,11 +23,11 @@ export default function NavBar() {
                     <li className="p-4 text-lg"><a href="/contact">Contact</a></li>
                 </ul>
                 <div className="md:hidden flex" onClick={() => setMenuOpen(!menuOpen)}>
-                    <Menu className="text-gray-900 hover:text-red-500" size={32} />
+                    <Menu className="text-gray-900 hover:text-hero" size={32} />
                 </div>
                 {menuOpen && (
                     <div className="absolute top-0 left-0 w-full h-full bg-white text-gray-900">
-                        <X className="text-gray-900 absolute top-7 right-5 hover:text-red-500" size={32} onClick={() => setMenuOpen(!menuOpen)} />
+                        <X className="text-gray-900 absolute top-7 right-5 hover:text-hero" size={32} onClick={() => setMenuOpen(!menuOpen)} />
                         <ul className="mt-8 ml-4">
                             <li className="p-4 text-lg"><a href="/">Home</a></li>
                             <li className="p-4 text-lg"><a href="/about">About</a></li>

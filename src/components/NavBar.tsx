@@ -10,11 +10,11 @@ export default function NavBar() {
     return (
         <>
             <nav className="flex flex-row p-5 justify-between items-center">
-                <div className="flex flex-shrink-0">
+                <div className="flex items-center gap-x-1">
                     <a href='/'>
-                        <Image src={'/images/heartlogo.gif'} alt='logo' width="80" height="80" />
+                        <Image src={'/images/heartlogo.gif'} alt='logo' width="60" height="60" />
                     </a>
-                    <p className="text-2xl font-bold p-5"><a href="/">Your Certain Something</a></p>
+                    <p className="text-sm sm:text-2xl font-bold"><a href="/">Your Certain Something</a></p>
                 </div>
                 <ul className="hidden md:flex">
                     <li className="p-4 text-lg"><a href="/">Home</a></li>
@@ -27,7 +27,7 @@ export default function NavBar() {
                 </div>
                 {menuOpen && (
                     <div className="absolute top-0 left-0 w-full h-full bg-white text-gray-900">
-                        <X className="text-gray-900 absolute top-10 right-5 hover:text-red-500" size={32} onClick={() => setMenuOpen(!menuOpen)} />
+                        <X className="text-gray-900 absolute top-7 right-5 hover:text-red-500" size={32} onClick={() => setMenuOpen(!menuOpen)} />
                         <ul className="mt-8 ml-4">
                             <li className="p-4 text-lg"><a href="/">Home</a></li>
                             <li className="p-4 text-lg"><a href="/about">About</a></li>

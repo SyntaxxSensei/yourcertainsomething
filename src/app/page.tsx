@@ -4,6 +4,7 @@ import TextArea from "@/components/TextArea";
 import FeatureImage from "@/components/FeatureImage";
 import Separator from "@/components/Separator";
 import FeatureText from "@/components/FeatureText";
+import Carousel from "@/components/Carousel";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <FeatureImage />
       <FeatureText />
       <Separator />
+      <Carousel />
     </>
   );
 }

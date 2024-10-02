@@ -1,6 +1,9 @@
 import Hero from "@/components/Hero";
 import ImageSection from "@/components/ImageSection";
 import TextArea from "@/components/TextArea";
+import FeatureImage from "@/components/FeatureImage";
+import Separator from "@/components/Separator";
+import FeatureText from "@/components/FeatureText";
 
 export default function Home() {
   return (
@@ -8,6 +11,9 @@ export default function Home() {
       <Hero />
       <ImageSection />
       <TextArea />
+      <FeatureImage />
+      <FeatureText />
+      <Separator />
     </>
   );
 }

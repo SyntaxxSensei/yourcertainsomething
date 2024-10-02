@@ -12,7 +12,7 @@ export default function NavBar() {
             <nav className="flex flex-row p-5 justify-between items-center">
                 <div className="flex items-center gap-x-1">
                     <a href='/'>
-                        <Image src={'/images/heartlogo.gif'} alt='logo' width="60" height="60" />
+                        <Image src={'/images/heartlogo.gif'} alt='logo' width="60" height="60" unoptimized />
                     </a>
                     <p className="text-sm sm:text-2xl font-bold"><a href="/">Your Certain Something</a></p>
                 </div>

@@ -17,7 +17,6 @@ export default function ImageSection() {
                     <Image className="w-auto" src={'/images/more-unique.webp'} alt='logo' width="100" height="100" />
                 </div>
             </div>
-            <div className="border-b-2 border-grey-200 m-6"></div>
         </div>
     );
 }

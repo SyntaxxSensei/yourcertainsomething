@@ -5,6 +5,7 @@ import FeatureImage from "@/components/FeatureImage";
 import Separator from "@/components/Separator";
 import FeatureText from "@/components/FeatureText";
 import Carousel from "@/components/Carousel";
+import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <FeatureText />
       <Separator />
       <Carousel />
+      <Testimonial />
     </>
   );
 }

@@ -17,7 +17,7 @@ export default function Home() {
       <FeatureText />
       <Separator />
       <Carousel />
-      <Testimonial />
+      <Testimonial message="I loved what you created for my course, so I had to come back to work with you again." name="Martin - Academic" />
     </>
   );
 }

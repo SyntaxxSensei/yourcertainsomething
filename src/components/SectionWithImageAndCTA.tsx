@@ -1,6 +1,6 @@
 export default function SectionWithImageAndCTA() {
     return (
-        <div className="flex flex-col md:flex-row justify-center">
+        <div className="flex flex-col md:flex-row justify-center pb-10">
             <div className="flex justify-center">
                 <img src="/images/zoe.jpg"
                      className="object-cover h-[400px] md:h-[500px]"

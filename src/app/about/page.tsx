@@ -1,5 +1,9 @@
+import SectionWithImageAndCTA from "@/components/SectionWithImageAndCTA";
+
 export default function About() {
     return (
-        <div>About page brother</div>
+        <>
+            <SectionWithImageAndCTA />
+        </>
     );
 }

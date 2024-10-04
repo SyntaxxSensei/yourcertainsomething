@@ -7,7 +7,7 @@ export default function Contact() {
     async function submitForm(event: FormEvent<HTMLFormElement>) {
         event.preventDefault();
         const formData = new FormData(event.currentTarget);
-        var response = PostData({data: formData});
+        const response = PostData({data: formData});
 
         console.log(response);
     }

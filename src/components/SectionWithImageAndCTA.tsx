@@ -1,3 +1,5 @@
+import CtaButton from "@/elements/CtaButton"
+
 export default function SectionWithImageAndCTA() {
     return (
         <div className="flex flex-col md:flex-row justify-center pb-10">
@@ -18,9 +20,7 @@ export default function SectionWithImageAndCTA() {
 
                 <p className="text-lg pb-5">I love working with my clients to help them see their ideas come to life.</p>
 
-                <div className="flex w-[150px] h-[70px]">
-                    <a className="bg-black text-white w-full h-full flex justify-center items-center rounded-md text-lg" href="/contact">Get Started</a>
-                </div>
+                <CtaButton title="Get Started" url="/contact" />
             </div>
         </div>
     );

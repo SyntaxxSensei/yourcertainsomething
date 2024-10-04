@@ -10,7 +10,6 @@ export default function ImageSection() {
                 <div className="flex justify-center">
                     <Image className="w-auto" src={'/images/more-engaging.png'} alt='logo' width="100" height="100" />
                     <Image className="w-auto" src={'/images/more-useable.png'} alt='logo' width="100" height="100" />
-                    <Image className="w-auto" src={'/images/healthy-competition.png'} alt='logo' width="100" height="100" />
                 </div>
                 <div className="flex justify-center">
                     <Image className="w-auto" src={'/images/realtime-feedback.png'} alt='logo' width="100" height="100" />

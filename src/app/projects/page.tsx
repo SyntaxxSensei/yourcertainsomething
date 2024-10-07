@@ -61,8 +61,8 @@ export default function Projects() {
                     </div>
                 )}
             </div>
-            <div className="absolute top-0 left-0 w-full h-full bg-black flex">
-                {slideshowImage && (
+            {slideshowImage && slideshowOpen && (
+                <div className="absolute top-0 left-0 w-full h-full bg-black flex">
                     <div className="flex flex-row items-center">
                         <div className="hidden md:flex text-white p-10">
                             <a href="#" onClick={(e) => previousImage(e)}>Previous</a>
@@ -74,11 +74,12 @@ export default function Projects() {
                             <a href="#" onClick={(e) => nextImage(e)}>Next</a>
                         </div>
                         <div className="absolute top-0 right-0 p-10 text-white">
-                            <a href="#" className="absolute top-10 right-10">Close</a>
+                            <a href="#" className="absolute top-10 right-10" onClick={(e) => closeSlideshow(e)}>Close</a>
                         </div>
                     </div>
-                )}
-            </div>
+                </div>
+            )}
+            
         </div>
     );
 }

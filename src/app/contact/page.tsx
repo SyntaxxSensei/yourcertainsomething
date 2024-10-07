@@ -16,7 +16,7 @@ export default function Contact() {
         <div className="flex flex-col md:flex-row justify-center">
             <div className="p-10 md:w-1/4">
                 <h1 className="text-lg md:text-3xl font-bold pb-6">Contact</h1>
-                <p className="">Let's make Your Certain Something a reality.</p>
+                <p className="">Let&apos;s make Your Certain Something a reality.</p>
             </div>
             <form className="p-10 md:w-2/4 md:max-w-[600px]" onSubmit={submitForm}>
                 <div className="">

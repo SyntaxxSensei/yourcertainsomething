@@ -1,0 +1,89 @@
+{
+    "images": [
+        {
+            "url": "images/projects/animation-from-book.webp",
+            "alt": "An image from a book that has been turned into an animation",
+            "caption": "Animation - animated photographs of paintings from a printed book"
+        },
+        {
+            "url": "images/projects/brochure.webp",
+            "alt": "An image of an article with dummy text and an image of a man in the right hand corner",
+            "caption": "Concept and design - Part of the brand design for Cranfield Stackable microcredentialling project"
+        },
+        {
+            "url": "images/projects/burguumataya.webp",
+            "alt": "An image showing examples of a burguu mataya game on a phone and a tablet",
+            "caption": "Concept, design, UI, UX - Gamified Burguu Matya based on physical game"
+        },
+        {
+            "url": "images/projects/case-study-design.webp",
+            "alt": "An image of a magazine showing an example article about clothing",
+            "caption": "Concept, layout, design - Case study design"
+        },
+        {
+            "url": "images/projects/character-animation.webp",
+            "alt": "An image showing a lady balancing objects to signify juggling her time througout the day",
+            "caption": "Animation - Character animation"
+        },
+        {
+            "url": "images/projects/children-mood-test.webp",
+            "alt": "An image showing a mobile app design for a children's mood test",
+            "caption": "Concept, animation, UI, UX - Gamified mood test for children"
+        },
+        {
+            "url": "images/projects/cranfield-mockups.webp",
+            "alt": "An image showing some mock up designs for a website",
+            "caption": "Concept and design - Part of the brand design for Cranfield Stackable microcredentialling project"
+        },
+        {
+            "url": "images/projects/ecotribunefront.webp",
+            "alt": "An image showing a cover of a magazine called Eco Tribune",
+            "caption": "Concept, layout, design - Magazine mockup for unique information representation"
+        },
+        {
+            "url": "images/projects/fleet-management.webp",
+            "alt": "An image showing mock-ups of a fleet management game",
+            "caption": "Concept, Design, Animation, UI, UX - Fleet management game."
+        },
+        {
+            "url": "images/projects/initialsandfinals.webp",
+            "alt": "An image showing a language learning game",
+            "caption": "UI, design, animation and UX - Chinese language learning game. "
+        },
+        {
+            "url": "images/projects/k2game.webp",
+            "alt": "An image showing an example of the K2 game, a game where you lead a team up a mountain",
+            "caption": "Concept, design, animation, audio, UI, UX - Gamified leadership resource"
+        },
+        {
+            "url": "images/projects/leading-change-managment.webp",
+            "alt": "An image showing 3 mini games about leadership",
+            "caption": "Concept, design, animation, UI, UX - 3 mini games on leadership"
+        },
+        {
+            "url": "images/projects/learning-resource.webp",
+            "alt": "An image showing some mock-ups of learning resources Zoe worked on",
+            "caption": "Concept, animation, UI, UX - Managers' learning resource."
+        },
+        {
+            "url": "images/projects/promo-video.webp",
+            "alt": "An image showing a snippet of a video which was designed by Zoe",
+            "caption": "Concept, design, animation - Promotional video for Stackable course"
+        },
+        {
+            "url": "images/projects/susbus.webp",
+            "alt": "An image showing an image showing off the course that the user will be taking",
+            "caption": "Course UX and asset design"
+        },
+        {
+            "url": "images/projects/susgame.webp",
+            "alt": "An image showing some mock-ups of the leading change management game Zoe worked on",
+            "caption": "Concept, Design, UI, UX, Animation, Videography - Digitisation of a board game for multi-screen play."
+        },
+        {
+            "url": "images/projects/upskill.webp",
+            "alt": "An image showing a snippet of a promotional video from the upskill project Zoe worked on",
+            "caption": "Animated promotional video for USQ Upskill microcredentialling project"
+        }
+    ]
+}

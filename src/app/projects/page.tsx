@@ -27,21 +27,42 @@ export default function Projects() {
         setCurrentImage(index);
     }
 
-    function nextImage(event: React.MouseEvent<HTMLAnchorElement>) {
+    function nextImage(event: React.MouseEvent<HTMLAnchorElement>): void {
         event.preventDefault();
-        setCurrentImage(currentImage + 1);
-        setSlideshowImage(images[currentImage + 1]);
+        const nextImage = getNextImageIndex(true);
+        setCurrentImage(nextImage);
+        setSlideshowImage(images[nextImage]);
     }
 
-    function previousImage(event: React.MouseEvent<HTMLAnchorElement>) {
+    function previousImage(event: React.MouseEvent<HTMLAnchorElement>): void {
         event.preventDefault();
-        setCurrentImage(currentImage - 1);
-        setSlideshowImage(images[currentImage - 1]);
+        const nextImage = getNextImageIndex(false);
+        setCurrentImage(nextImage);
+        setSlideshowImage(images[nextImage]);
     }
 
-    function closeSlideshow(event: React.MouseEvent<HTMLAnchorElement>) {
+    function closeSlideshow(event: React.MouseEvent<HTMLAnchorElement>): void {
         event.preventDefault();
         setSlideshowOpen(false);
+    }
+
+    function getNextImageIndex(isForward: boolean): number {
+        if (currentImage === images.length - 1 && isForward) {
+            setCurrentImage(0);
+            return 0;
+        }
+
+        if (currentImage === 0 && !isForward) {
+            setCurrentImage(images.length - 1);
+            return images.length - 1;
+        }
+        
+        if (isForward) { 
+            return currentImage + 1;
+        }
+        else {
+            return currentImage - 1;
+        }
     }
 
     return (
@@ -63,7 +84,7 @@ export default function Projects() {
             </div>
             {slideshowImage && slideshowOpen && (
                 <div className="absolute top-0 left-0 w-full h-full bg-black flex">
-                    <div className="flex flex-row items-center">
+                    <div className="flex flex-row items-center w-full h-full">
                         <div className="hidden md:flex text-white p-10">
                             <a href="#" onClick={(e) => previousImage(e)}>Previous</a>
                         </div>

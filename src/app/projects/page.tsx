@@ -83,13 +83,13 @@ export default function Projects() {
                 )}
             </div>
             {slideshowImage && slideshowOpen && (
-                <div className="absolute top-0 left-0 w-full h-full bg-black flex">
-                    <div className="flex flex-row items-center w-full h-full">
+                <div className="fixed top-0 left-0 w-full h-full bg-black flex flex-col">
+                    <div className="relative flex flex-row items-center w-full h-full">
                         <div className="hidden md:flex text-white p-10">
                             <a href="#" onClick={(e) => previousImage(e)}>Previous</a>
                         </div>
-                        <div className="w-full h-full bg-black flex justify-center items-center">
-                            <img className="w-auto h-auto" src={slideshowImage.url} alt={slideshowImage.alt} />
+                        <div className="w-full bg-black flex justify-center items-center">
+                            <img className="block h-screen max-w-full m-auto pt-10 pb-10" src={slideshowImage.url} alt={slideshowImage.alt} />
                         </div>
                         <div className="hidden md:flex text-white p-10">
                             <a href="#" onClick={(e) => nextImage(e)}>Next</a>

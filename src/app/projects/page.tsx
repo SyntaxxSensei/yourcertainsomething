@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import data from "@/jsonData/images.json";
 import Thumbnail from "@/components/Thumbnail"
 import ThumbnailImage from '../models/ThumbnailImage';
+import { HiOutlineArrowCircleRight, HiOutlineArrowCircleLeft, HiOutlineX } from "react-icons/hi";
 
 export default function Projects() {
     const [images, setImages] = useState<ThumbnailImage[] | []>([]);
@@ -85,16 +86,16 @@ export default function Projects() {
                 <div className="fixed top-0 left-0 w-full h-full bg-black flex flex-col">
                     <div className="relative flex flex-row items-center w-full h-full">
                         <div className="hidden md:flex text-white p-10">
-                            <a href="#" onClick={(e) => previousImage(e)}>Previous</a>
+                            <a className="text-4xl" href="#" onClick={(e) => previousImage(e)}><HiOutlineArrowCircleLeft /></a>
                         </div>
                         <div className="w-full bg-black flex justify-center items-center">
                             <img className="m-auto pt-10 pb-10" src={slideshowImage.url} alt={slideshowImage.alt} />
                         </div>
                         <div className="hidden md:flex text-white p-10">
-                            <a href="#" onClick={(e) => nextImage(e)}>Next</a>
+                            <a className="text-4xl" href="#" onClick={(e) => nextImage(e)}><HiOutlineArrowCircleRight /></a>
                         </div>
                         <div className="absolute top-0 right-0 p-10 text-white">
-                            <a href="#" className="absolute top-10 right-10" onClick={(e) => closeSlideshow(e)}>Close</a>
+                            <a href="#" className="absolute top-10 right-10 text-4xl" onClick={(e) => closeSlideshow(e)}><HiOutlineX /></a>
                         </div>
                     </div>
                 </div>

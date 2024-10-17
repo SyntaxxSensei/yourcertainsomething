@@ -66,12 +66,11 @@ export default function Projects() {
     }
 
     return (
-        <div>
+        <>
             <div>
-                <h1>Projects</h1>
-            </div>
-
-            <div className="flex flex-col flex-wrap md:flex-row justify-center content-around">
+                <div className="flex ml-5 md:ml-32">
+                    <h1 className="text-3xl font-bold">Projects</h1>
+                </div>
                 {images.length > 0 && (
                     <div className="flex flex-col flex-wrap md:flex-row justify-center content-around">
                         {images.map((image, index) => (
@@ -101,6 +100,6 @@ export default function Projects() {
                 </div>
             )}
             
-        </div>
+        </>
     );
 }

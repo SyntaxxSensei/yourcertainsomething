@@ -88,7 +88,7 @@ export default function Projects() {
                             <a href="#" onClick={(e) => previousImage(e)}>Previous</a>
                         </div>
                         <div className="w-full bg-black flex justify-center items-center">
-                            <img className="block h-screen max-w-full m-auto pt-10 pb-10" src={slideshowImage.url} alt={slideshowImage.alt} />
+                            <img className="m-auto pt-10 pb-10" src={slideshowImage.url} alt={slideshowImage.alt} />
                         </div>
                         <div className="hidden md:flex text-white p-10">
                             <a href="#" onClick={(e) => nextImage(e)}>Next</a>

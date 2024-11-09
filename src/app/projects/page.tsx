@@ -85,13 +85,13 @@ export default function Projects() {
             {slideshowImage && slideshowOpen && (
                 <div className="fixed top-0 left-0 w-full h-full bg-black flex flex-col">
                     <div className="relative flex md:flex-row items-center w-full h-full">
-                        <div className="absolute left-0 text-blue-500 md:relative md:flex md:text-white p-10">
+                        <div className="absolute left-0 text-hero md:relative md:flex md:text-white p-10">
                             <a className="text-4xl" href="#" onClick={(e) => previousImage(e)}><HiOutlineArrowCircleLeft /></a>
                         </div>
                         <div className="w-full bg-black flex justify-center items-center">
                             <img className="m-auto pt-10 pb-10" src={slideshowImage.url} alt={slideshowImage.alt} />
                         </div>
-                        <div className="absolute right-0 text-blue-500 md:relative md:flex md:text-white p-10">
+                        <div className="absolute right-0 text-hero md:relative md:flex md:text-white p-10">
                             <a className="text-4xl" href="#" onClick={(e) => nextImage(e)}><HiOutlineArrowCircleRight /></a>
                         </div>
                         <div className="absolute top-0 right-0 p-10 text-red-600 md:text-white">
